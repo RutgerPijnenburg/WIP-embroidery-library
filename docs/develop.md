@@ -15,7 +15,7 @@ More on this in [Configuring the Gradle build file](#configuring-the-gradle-buil
 
 Intellij and Visual Studio Code will then direct you to move your code into nested folders, consistent
 with your package name. For instance, if the package is `com.myDomain.myLibrary`, the code will
-be in the folder structure `DirectEmbroideryControl`.
+be in the folder structure `src/main/java/com/myDomain/myLibrary/`.
 
 If you would like to use Processing functionality in your library, you can do so by importing Processing core
 and referencing Processing objects from the PApplet instance. An example of how to do this is given in the
